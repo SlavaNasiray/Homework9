@@ -341,58 +341,55 @@ header .btn {
 	background-color: #f8f8f8;
 }
 
-.container5 {
+.container5{
 	margin-top: 180px;
 	margin-bottom: 210px;
 }
 
-.container5 .left_content {
+.container5 .left_content img{
 	max-width: 100%;
 }
 
-.container5 .row {
+.container5 .row{
 	margin-left: -30px;
 }
 
-.container5 .right_content h3 {
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 300;
-	font-size: 48px;
-	color: #000000;
-	margin-bottom: 45px;
-}
-
-.container5 .right_content {
+.container5 .right_content{
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	margin-left: 60px;
 }
 
-.container5 .right_content .right_txt {
+.container5 .right_content h3{
+	font-size: 48px;
+	color: #000000;
+	margin-bottom: 45px;
+}
+
+.container5 .right_content .right_txt{
 	font-size: 24px;
 	color: #333333;
 	margin-bottom: 55px;
 }
 
-.container5 .right_content svg {
+.container5 .right_content svg{
 	font-size: 55px;
-	color: #bc9c38;
+	color: #c99f2c;
 }
 
-.container5 .right_content .spans {
+.container5 .right_content .spans{
 	font-weight: 400;
 	font-size: 22px;
 	color: #000000;
 }
 
-.container5 .right_content .txt {
+.container5 .right_content .txt{
 	font-size: 14px;
-	color: #363636;
+	color: #4e4e4e;
 	margin-bottom: 55px;
 }
 
-.container5 a {
-	text-decoration: none;
+.container5 a{
 	font-weight: 700;
 	font-size: 14px;
 	color: #333333;
@@ -871,7 +868,7 @@ header .btn {
 }
 
 .container10 .flex_box .text_center {
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 .container10 .flex_box p {
@@ -892,7 +889,7 @@ header .btn {
 }
 
 .container10 .flex_box .logo1 {
-	margin-left: 150px;
+	margin-left: 50px;
 }
 
 .container10 .flex_box .descr {
@@ -920,7 +917,7 @@ header .btn {
 .container10 .flex_box span {
 	align-self: center;
 	margin-top: 55px;
-	margin-bottom: 150px;
+	margin-bottom: 120px;
 	font-size: 40px;
 }
 
@@ -938,6 +935,7 @@ header .btn {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 0;
 }
 
 .container11 .flex_box2 h2 {
@@ -971,6 +969,80 @@ header .btn {
 .container11 .flex_box2 a:hover {
 	cursor: pointer;
 	background-color: red;
+}
+
+/*END container11*/
+
+.container12 {
+	background-color: #151515;
+}
+
+.container12 .center {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container12 .right_content {
+	max-width: 650px;
+	width: 100%;
+}
+
+.container12 .right_content .txt_left {
+	margin-left: 100px;
+}
+
+.container12 .right_content .text_center, .container12 .right_content .text_right {
+	margin-left: 10px;
+}
+
+.container12 .left_content p {
+	font-family: 'Ubuntu',sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #666666;
+}
+
+.container12 .left_content .fa-twitter, .container12 .left_content .fa-basketball-ball, .container12 .left_content .fa-linkedin-in {	
+	margin-left: 50px;	
+}
+
+.container12 .left_content svg {
+	color: #666666;
+	font-size: 20px;
+}
+
+.container12 h2 {
+	font-family: 'Ubuntu',sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 170px;
+}
+
+.container12 .right_content a {
+	font-family: 'Ubuntu',sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #666666;
+}
+
+.container12 .line {
+	margin-top: 80px;
+	margin-bottom: 60px;
+	background-color: #666666;
+	height: 2px;
+}
+
+.container12 .txtdawn p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 11px;
+	font-weight: 300;
+	color: #989898;
+}
+
+.container12 span {
+	color: #4a4126;
 }
 
 /*START MEDIA*/
